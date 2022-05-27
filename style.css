@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.div ul {
+    flex-flow: row wrap;
+}
+
+input {
+    flex-flow: row;
+}
+
+.transicao {
+    transition-duration: .5s;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.rgb {
+    animation: chroma .5s linear infinite;
+}
+
+@keyframes chroma{
+    0%, 100% {
+        background-color: red;
+    }
+
+    10% {
+        background-color: rgb(255, 66, 66);
+    }
+
+    20% {
+        background-color: pink;
+    }
+
+    30% {
+        background-color: rgb(180, 3, 151);
+    }
+
+    40% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: cyan;
+    }
+
+    60% {
+        background-color: rgb(48, 187, 48);
+    }
+
+    70% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: rgb(252, 252, 149);
+    }
+
+    90% {
+        background-color: yellow;
+    }
+}
